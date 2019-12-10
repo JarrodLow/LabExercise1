@@ -68,12 +68,12 @@ class MainActivity : AppCompatActivity() {
         val dInterest = findViewById<TextView>(R.id.textViewInterest)
         val dRepayment = findViewById<TextView>(R.id.textViewMonthlyRepayment)
 
-        price.setText(R.string.car_price)
-        downp.setText(R.string.down_payment)
-        period.setText(R.string.loan_period)
-        interest.setText(R.string.interest_rate)
+        price.setText("")
+        downp.setText("")
+        period.setText("")
+        interest.setText("")
         dLoan.setText(R.string.loan)
-        dInterest.setText(R.string.loan)
+        dInterest.setText(R.string.interest)
         dRepayment.setText(R.string.monthly_repayment)
     }
 
